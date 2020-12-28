@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+.navbar {
+    background-color: #1b2e35!important;
+}
+
+.navbar .navbar-brand{
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.navbar ul li a{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+.navbar form{
+    background: #fff;
+    border: 1px solid #000;
+    border-radius: 15px;
+    overflow: hidden !important;
+    max-width: 200px;
+    max-height: 40px;
+    padding: 0px 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+
+}
+
+
+.navbar form input {
+    padding: 4px 8px;
+    width: 9rem !important;
+    height: 1.5rem !important;
+    font-size: 16px;
+    border: none;
+    outline: none !important;
+}
+
+.navbar form .form-control:focus{
+    box-shadow: none;
+    outline: 0 none;
+}
+
+.navbar form button{
+    background: #fff;
+    color: #454e54;
+    font-size: 100%;
+    padding: 0;
+    border: none;
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    display: inline-block;
+    cursor: pointer;
+
+}
+.navbar form button:focus{
+    box-shadow: none;
+    outline: 0 none;
+}
+.navbar form button:active{
+    background: #454e54;
+    box-shadow: none;
+    outline: 0 none;
+}
+
+.navbar form button:hover{
+    color: #fff;
+    background: #454e54;
+}
+
+.navbar .account-ul{
+    border-left: 1px solid #fff;
+    border-radius: 1px;
+    margin-left: 10px;
+    margin-right: 0px !important;
+}
+
+.navbar  .account-ul li a{
+    padding: 0;
+}
