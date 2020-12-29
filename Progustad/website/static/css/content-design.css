@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+/* Banner */
+.img-box{
+    width: 100%;
+    height: 800px;
+    /* border: 1px solid green; */
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+img{
+    flex-shrink: 0;
+    height: 100%;
+}
+
+
+/* Border */
+.content .border{
+    border: none !important;
+    width: 100%;
+    height: 73px;
+    background: #1b2e35;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.content .border i{
+    transform: rotateZ(180deg) translateY(10px);
+    color: #fff;
+    font-size: 3rem;
+}
+
+
+
+/* Summary */
+.summary{
+    font-family: 'Poppins', sans-serif;
+    margin: 50px 0;
+    padding: 20px 50px;
+    border-radius: 6px;
+    background:#1b2e35;
+    color: #fff;
+}
+.summary hr{
+    
+    background-color: #fff;
+}
+
+
+/* challenges */
+.challenges{
+    margin: 50px 0;
+    padding: 20px 50px;
+    border-radius: 6px;
+    background:#1b2e35;
+    color: #fff;
+}
+.challenges h1{
+    letter-spacing: 2px;
+}
+.challenges hr{
+    background: #fff;
+}
+.challenge-card{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.4);
+    padding: 10px 0;
+}
+.challenge-text{
+    /* border: 1px solid green; */
+}
+.text-title{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.9rem;
+    /* border-bottom: 1px solid #FFF; */
+}
+.text-category{
+    font-family: 'Poppins', sans-serif;
+    color: rgba(255,255,255,0.7);
+    font-weight: 600px;
+    letter-spacing: 1px;
+}
+.challenge-icon{
+    /* border: 1px solid yellow; */
+    font-size: 3rem;
+}
+

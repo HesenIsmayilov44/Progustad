@@ -1,9 +1,55 @@
 {% extends 'base.html' %}
+{% load static %}
 
     {% block content %}
-
-        <div class="container">
-            <h1>home</h1>
+        <div class="img-box">
+            <img src="{% static 'images/home-Copy.png' %}" alt="Home Image">
         </div>
+        <div class="content">
+            <div class="border"><i class="fas fa-sort-up"></i></i></div>
+            <div class="container">
+                <div class="summary">
+                    <h1>Summary</h1>
+                    <hr>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                </div>
+                <div class="challenges">
+                    <h1>Məsələlər</h1>
+                    <hr>
+                    <div class="challenge-card">
+                        <div class="challenge-text">
+                            <div class="text-title">Sadə məsələ</div>
+                            <div class="text-category">Alqoritm</div>
+                        </div>
+                        <div class="challenge-icon"><i class="fas fa-play-circle"></i></div>
+                    </div>
+
+                    <div class="challenge-card">
+                        <div class="challenge-text">
+                            <div class="text-title">Rəqəmlər</div>
+                            <div class="text-category">Alqoritm</div>
+                        </div>
+                        <div class="challenge-icon"><i class="fas fa-play-circle"></i></div>
+                    </div>
+
+                    <div class="challenge-card">
+                        <div class="challenge-text">
+                            <div class="text-title">Kibrit çöplərindən düzəldilmiş model</div>
+                            <div class="text-category">Alqoritm</div>
+                        </div>
+                        <div class="challenge-icon"><i class="fas fa-play-circle"></i></div>
+                    </div>
+
+                    <div class="challenge-card">
+                        <div class="challenge-text">
+                            <div class="text-title">İki çevrə</div>
+                            <div class="text-category">Alqoritm</div>
+                        </div>
+                        <div class="challenge-icon"><i class="fas fa-play-circle"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
 
     {% endblock %}
