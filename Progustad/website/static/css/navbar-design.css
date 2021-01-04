@@ -34,7 +34,7 @@
     overflow: hidden !important;
     max-width: 200px;
     max-height: 40px;
-    padding: 0px 4px;
+    padding-left: 4px ;
     display: flex;
     align-items: center;
     justify-content: space-between;

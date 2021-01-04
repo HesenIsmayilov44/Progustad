@@ -13,8 +13,9 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
 
     <!-- Own css -->
-    <link rel="stylesheet" href="{% static 'css/navbar.css' %}">
+    <link rel="stylesheet" href="{% static 'css/navbar-design.css' %}">
     <link rel="stylesheet" href="{% static 'css/content-design.css' %}">
+    <link rel="stylesheet" href="{% static 'css/footer-design.css' %}">
     
 </head>
 <body>
@@ -28,7 +29,7 @@
       
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
+            <li class="nav-item ">
               <a class="nav-link" href="#">Məsələlər</a>
             </li>
             <li class="nav-item">
@@ -54,13 +55,44 @@
         </div>
       </nav>
 
-      <div class="navbar-place" >
-
-      </div>
+      <div class="navbar-place" ></div>
 
     {% block content %}
     {% endblock %}
-
+    
+      <!-- Footer -->
+      <div class="footer-container">
+        <div class="footer-content">
+          <div class="content-common">
+            <div class="header">ÜMUMİ</div>
+            <a href="#">Haqqımızda</a>
+            <a href="#">Bloq</a>
+            <a href="#">Faydalı</a>
+          </div>
+          <div class="content-challenges">
+            <div class="header">ÖZÜNÜ YOXLA</div>
+            <a href="#">Çalışmalar</a>
+            <a href="#">Testlər</a>
+            <a href="#">Müsahibə Sualları</a>
+            
+          </div>
+          <div class="content-contact">
+            <div class="header">ƏLAQƏ</div>
+              <span>Tel : +994 (55) 555 55 55 (Whatsapp)</span>
+              <span>Email : info@codeustad.az</span>
+          </div>
+          <div class="content-social">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"> <i class="fab fa-telegram"></i></a>
+            <a href="#"> <i class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          Copyright 2020 - CodeUstad
+        </div>
+      </div>
 
 
     
