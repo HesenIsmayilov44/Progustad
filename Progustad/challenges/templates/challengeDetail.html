@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<div class="img-box">
+    <img src="{% static 'images/home-Copy.png' %}" alt="Home Image">
+</div>
+<div class="content">
+    <div class="border"><a href="#">Məsələlər</a> <span> > Sadə Məsələ</span></i></i></div>
+
+    <div class="container">
+        <div class="challenge">
+            <div class="header">Şərti</div>
+            <div class="hr"></div>
+            <span>Proqram ikirəqəmli ədədi oxuyur və ədədin hər bir rəqəmini arada boşluq
+                olmaqla ekrana verir.
+            </span>
+            <h5>Giriş verilənləri</h5>
+            <span>10 - 99 arası hər hansı bir natural ədəd</span>
+            <h5>Çıxış verilənləri</h5>
+            <span>Boşluqla ayrılmış iki rəqəm</span>
+            <div class="hr"></div>
+            <form action="">
+                {% csrf_token %}
+                <!-- <select name="languages" id="languages" required >
+                    <option value="0">Dil seçimi</option>
+                    <option value="1">Python</option>
+                  </select> -->
+                  <label for="answer" style="margin: 10px 0; cursor: pointer;">Cavabınızı buraya daxil edin</label>
+                  <textarea name="" id="answer" cols="30" rows="10" placeholder="Cavabı buraya daxil edin."></textarea>
+                  <button type="submit" >Göndər&#128526!</button>
+            </form>
+               
+        </div>
+
+        <div class="next-previous">
+            <div class="previous"><a href="#"><i class="fas fa-arrow-left"></i>İki çevrə</a></div>
+            <div class="next"><a href="#">Rəqəmlər<i class="fas fa-arrow-right"></i></a></div>
+        </div>
+
+    </div>
+
+</div>
+
+{% endblock %}
